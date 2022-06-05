@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "网络/域名解析.md",
+            "file": "读书笔记/深入分析javaweb技术内幕/深入分析javaweb中的编码问题.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#常用的编码问题",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,11 +49,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 236
+    "width": 277
   },
   "right": {
     "id": "f6a3cb8ed6139461",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络/域名解析.md",
+                "file": "读书笔记/深入分析javaweb技术内幕/深入分析javaweb中的编码问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "49a59aaefbe656cd",
   "lastOpenFiles": [
+    "读书笔记/深入分析javaweb技术内幕/深入分析javaweb中的编码问题.md",
+    "读书笔记/深入分析javaweb技术内幕/深入分析java web的io机制.md",
+    "网络/TCP三次握手中SYN，ACK，Seq三者的关系.md",
     "网络/域名解析.md",
     "axios中文文档/axios中文文档学习.md",
     "git/git提交.md",
     "mysql/oracle 练习.md",
     "mysql/mysql double 精度不准的问题.md",
     "README.md",
-    "测试.md",
-    "img/double精度不够3.png",
-    "img/double精度不够2.png",
-    "img/double精度不够.png"
+    "测试.md"
   ]
 }
