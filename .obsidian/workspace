@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vo,entity,dto有什么区别.md",
+            "file": "java/vo,entity,dto有什么区别.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vo,entity,dto有什么区别.md",
+                "file": "java/vo,entity,dto有什么区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
   },
   "active": "49a59aaefbe656cd",
   "lastOpenFiles": [
-    "vo,entity,dto有什么区别.md",
+    "java/vo,entity,dto有什么区别.md",
     "得到听书/助推.md",
     "读书笔记/深入分析javaweb技术内幕/深入分析javaweb中的编码问题.md",
     "读书笔记/深入分析javaweb技术内幕/深入分析java web的io机制.md",
