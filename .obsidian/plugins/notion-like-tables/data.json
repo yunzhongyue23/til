@@ -204,6 +204,255 @@
         "viewType": "live-preview",
         "shouldUpdate": true
       }
+    },
+    "读书笔记/深入分析javaweb技术内幕/深入class 文件结构.md": {
+      "table-id-ql1vsp": {
+        "data": {
+          "headers": [
+            {
+              "id": "column-id-gjzaaz",
+              "content": "数据类型",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "column-id-4tn8lm",
+              "content": "表示方式",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "row-id-ujvezz",
+              "creationTime": 1654690327758
+            },
+            {
+              "id": "row-id-s2ejv7",
+              "creationTime": 1654690327758
+            },
+            {
+              "id": "row-id-va10ky",
+              "creationTime": 1654690327758
+            },
+            {
+              "id": "row-id-yklsh3",
+              "creationTime": 1654690327758
+            },
+            {
+              "id": "row-id-965miq",
+              "creationTime": 1654690327758
+            },
+            {
+              "id": "row-id-5s1idu",
+              "creationTime": 1654690327758
+            },
+            {
+              "id": "row-id-0ws699",
+              "creationTime": 1654690327758
+            },
+            {
+              "id": "row-id-wt90ah",
+              "creationTime": 1654690327758
+            },
+            {
+              "id": "row-id-r8lnit",
+              "creationTime": 1654690327758
+            },
+            {
+              "id": "row-id-tm3sg0",
+              "creationTime": 1654690327758
+            },
+            {
+              "id": "row-id-2nbpwq",
+              "creationTime": 1654690327758
+            }
+          ],
+          "cells": [
+            {
+              "id": "cell-id-2t6tv5",
+              "rowId": "row-id-ujvezz",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "数组"
+            },
+            {
+              "id": "cell-id-h0vvoc",
+              "rowId": "row-id-ujvezz",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "["
+            },
+            {
+              "id": "cell-id-z5uvkn",
+              "rowId": "row-id-s2ejv7",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "类"
+            },
+            {
+              "id": "cell-id-95df9o",
+              "rowId": "row-id-s2ejv7",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "L"
+            },
+            {
+              "id": "cell-id-4yo6w4",
+              "rowId": "row-id-va10ky",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "byte"
+            },
+            {
+              "id": "cell-id-c8foaz",
+              "rowId": "row-id-va10ky",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "B"
+            },
+            {
+              "id": "cell-id-6ctix3",
+              "rowId": "row-id-yklsh3",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "boolean"
+            },
+            {
+              "id": "cell-id-23nani",
+              "rowId": "row-id-yklsh3",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "Z"
+            },
+            {
+              "id": "cell-id-ukz4xn",
+              "rowId": "row-id-965miq",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "char"
+            },
+            {
+              "id": "cell-id-y5fpw6",
+              "rowId": "row-id-965miq",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "C"
+            },
+            {
+              "id": "cell-id-nks7va",
+              "rowId": "row-id-5s1idu",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "double"
+            },
+            {
+              "id": "cell-id-u2kyzt",
+              "rowId": "row-id-5s1idu",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "D"
+            },
+            {
+              "id": "cell-id-clthn3",
+              "rowId": "row-id-0ws699",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "float"
+            },
+            {
+              "id": "cell-id-5faqsm",
+              "rowId": "row-id-0ws699",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "F"
+            },
+            {
+              "id": "cell-id-9r4szz",
+              "rowId": "row-id-wt90ah",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "int"
+            },
+            {
+              "id": "cell-id-4kuubg",
+              "rowId": "row-id-wt90ah",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "I"
+            },
+            {
+              "id": "cell-id-x7or8j",
+              "rowId": "row-id-r8lnit",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "long"
+            },
+            {
+              "id": "cell-id-0vrdw9",
+              "rowId": "row-id-r8lnit",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "J"
+            },
+            {
+              "id": "cell-id-b2oagq",
+              "rowId": "row-id-tm3sg0",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "short"
+            },
+            {
+              "id": "cell-id-zgfe30",
+              "rowId": "row-id-tm3sg0",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "S"
+            },
+            {
+              "id": "cell-id-f6jyiz",
+              "rowId": "row-id-2nbpwq",
+              "headerId": "column-id-gjzaaz",
+              "type": "text",
+              "expectedType": null,
+              "text": "void"
+            },
+            {
+              "id": "cell-id-8azo7m",
+              "rowId": "row-id-2nbpwq",
+              "headerId": "column-id-4tn8lm",
+              "type": "text",
+              "expectedType": null,
+              "text": "V"
+            }
+          ],
+          "tags": []
+        },
+        "viewType": "reading",
+        "shouldUpdate": false
+      }
     }
   },
   "focusedElement": {
