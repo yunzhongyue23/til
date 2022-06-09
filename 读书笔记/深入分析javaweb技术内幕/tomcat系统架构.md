@@ -1,0 +1,1 @@
+connector和container的关系就像是婚姻关系,connector 是男孩子,负责和外面对接,container是女孩子负责处理内部事物,service是两人的结婚证书,server是俩人居住的地方
