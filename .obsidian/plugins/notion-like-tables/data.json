@@ -1,210 +1,6 @@
 {
   "appData": {},
   "state": {
-    "java/接口和抽象类区别.md": {
-      "table-id-foy9b6": {
-        "data": {
-          "headers": [
-            {
-              "id": "column-id-dbydcd",
-              "content": "类型",
-              "sortName": "default",
-              "width": "72px",
-              "type": "text"
-            },
-            {
-              "id": "column-id-d5fl0c",
-              "content": "abstract class",
-              "sortName": "default",
-              "width": "229px",
-              "type": "text"
-            },
-            {
-              "id": "column-id-wkghji",
-              "content": "interface",
-              "sortName": "default",
-              "width": "100px",
-              "type": "text"
-            }
-          ],
-          "rows": [
-            {
-              "id": "row-id-9qbmva",
-              "creationTime": 1654496371484
-            },
-            {
-              "id": "row-id-2wqkdr",
-              "creationTime": 1654496371484
-            },
-            {
-              "id": "row-id-lijmha",
-              "creationTime": 1654496371484
-            },
-            {
-              "id": "row-id-jtyfwf",
-              "creationTime": 1654496371484
-            },
-            {
-              "id": "row-id-mos7j9",
-              "creationTime": 1654496371484
-            },
-            {
-              "id": "row-id-8k5h2t",
-              "creationTime": 1654496371484
-            }
-          ],
-          "cells": [
-            {
-              "id": "cell-id-wlb7lg",
-              "rowId": "row-id-9qbmva",
-              "headerId": "column-id-dbydcd",
-              "type": "text",
-              "expectedType": null,
-              "text": "定义"
-            },
-            {
-              "id": "cell-id-mcspq7",
-              "rowId": "row-id-9qbmva",
-              "headerId": "column-id-d5fl0c",
-              "type": "text",
-              "expectedType": null,
-              "text": "abstract class"
-            },
-            {
-              "id": "cell-id-ngf0he",
-              "rowId": "row-id-9qbmva",
-              "headerId": "column-id-wkghji",
-              "type": "text",
-              "expectedType": null,
-              "text": "interface"
-            },
-            {
-              "id": "cell-id-fmhp4v",
-              "rowId": "row-id-2wqkdr",
-              "headerId": "column-id-dbydcd",
-              "type": "text",
-              "expectedType": null,
-              "text": "继承"
-            },
-            {
-              "id": "cell-id-uvnobb",
-              "rowId": "row-id-2wqkdr",
-              "headerId": "column-id-d5fl0c",
-              "type": "text",
-              "expectedType": null,
-              "text": "抽象类可以继承一个类和实现多个接口"
-            },
-            {
-              "id": "cell-id-p0sqiy",
-              "rowId": "row-id-2wqkdr",
-              "headerId": "column-id-wkghji",
-              "type": "text",
-              "expectedType": null,
-              "text": "接口只可以继承接口,一个或多个,子类可以实现多个接口"
-            },
-            {
-              "id": "cell-id-uyqc9w",
-              "rowId": "row-id-lijmha",
-              "headerId": "column-id-dbydcd",
-              "type": "text",
-              "expectedType": null,
-              "text": "访问修饰符"
-            },
-            {
-              "id": "cell-id-diordr",
-              "rowId": "row-id-lijmha",
-              "headerId": "column-id-d5fl0c",
-              "type": "text",
-              "expectedType": null,
-              "text": "public ,protected,default"
-            },
-            {
-              "id": "cell-id-uebdgy",
-              "rowId": "row-id-lijmha",
-              "headerId": "column-id-wkghji",
-              "type": "text",
-              "expectedType": null,
-              "text": "public"
-            },
-            {
-              "id": "cell-id-auw4b4",
-              "rowId": "row-id-jtyfwf",
-              "headerId": "column-id-dbydcd",
-              "type": "text",
-              "expectedType": null,
-              "text": "方法实现"
-            },
-            {
-              "id": "cell-id-dvq93a",
-              "rowId": "row-id-jtyfwf",
-              "headerId": "column-id-d5fl0c",
-              "type": "text",
-              "expectedType": null,
-              "text": "可以定义构造方法,可以有抽象方法和具体方法"
-            },
-            {
-              "id": "cell-id-u0o91p",
-              "rowId": "row-id-jtyfwf",
-              "headerId": "column-id-wkghji",
-              "type": "text",
-              "expectedType": null,
-              "text": "接口是完全抽象的没有构造方法,且方法都是抽象的,不存在方法的实现."
-            },
-            {
-              "id": "cell-id-033ujr",
-              "rowId": "row-id-mos7j9",
-              "headerId": "column-id-dbydcd",
-              "type": "text",
-              "expectedType": null,
-              "text": "实现方式"
-            },
-            {
-              "id": "cell-id-w5h5gd",
-              "rowId": "row-id-mos7j9",
-              "headerId": "column-id-d5fl0c",
-              "type": "text",
-              "expectedType": null,
-              "text": "子类通过使用extends关键字来实现抽象类"
-            },
-            {
-              "id": "cell-id-0jopnf",
-              "rowId": "row-id-mos7j9",
-              "headerId": "column-id-wkghji",
-              "type": "text",
-              "expectedType": null,
-              "text": "子类通过implements来实现接口,他需要提供所有方法的实现"
-            },
-            {
-              "id": "cell-id-d4wuoq",
-              "rowId": "row-id-8k5h2t",
-              "headerId": "column-id-dbydcd",
-              "type": "text",
-              "expectedType": null,
-              "text": "作用"
-            },
-            {
-              "id": "cell-id-tpii3e",
-              "rowId": "row-id-8k5h2t",
-              "headerId": "column-id-d5fl0c",
-              "type": "text",
-              "expectedType": null,
-              "text": "为了把相同的东西抽离出来,即重用"
-            },
-            {
-              "id": "cell-id-x6ldg8",
-              "rowId": "row-id-8k5h2t",
-              "headerId": "column-id-wkghji",
-              "type": "text",
-              "expectedType": null,
-              "text": "为了把程序模块进行固化的契约,是为了降低耦合"
-            }
-          ],
-          "tags": []
-        },
-        "viewType": "live-preview",
-        "shouldUpdate": true
-      }
-    },
     "读书笔记/深入分析javaweb技术内幕/深入class 文件结构.md": {
       "table-id-ql1vsp": {
         "data": {
@@ -452,6 +248,210 @@
         },
         "viewType": "reading",
         "shouldUpdate": false
+      }
+    },
+    "java/java基础语法/接口和抽象类区别.md": {
+      "table-id-foy9b6": {
+        "data": {
+          "headers": [
+            {
+              "id": "column-id-dbydcd",
+              "content": "类型",
+              "sortName": "default",
+              "width": "72px",
+              "type": "text"
+            },
+            {
+              "id": "column-id-d5fl0c",
+              "content": "abstract class",
+              "sortName": "default",
+              "width": "229px",
+              "type": "text"
+            },
+            {
+              "id": "column-id-wkghji",
+              "content": "interface",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "row-id-9qbmva",
+              "creationTime": 1654496371484
+            },
+            {
+              "id": "row-id-2wqkdr",
+              "creationTime": 1654496371484
+            },
+            {
+              "id": "row-id-lijmha",
+              "creationTime": 1654496371484
+            },
+            {
+              "id": "row-id-jtyfwf",
+              "creationTime": 1654496371484
+            },
+            {
+              "id": "row-id-mos7j9",
+              "creationTime": 1654496371484
+            },
+            {
+              "id": "row-id-8k5h2t",
+              "creationTime": 1654496371484
+            }
+          ],
+          "cells": [
+            {
+              "id": "cell-id-wlb7lg",
+              "rowId": "row-id-9qbmva",
+              "headerId": "column-id-dbydcd",
+              "type": "text",
+              "expectedType": null,
+              "text": "定义"
+            },
+            {
+              "id": "cell-id-mcspq7",
+              "rowId": "row-id-9qbmva",
+              "headerId": "column-id-d5fl0c",
+              "type": "text",
+              "expectedType": null,
+              "text": "abstract class"
+            },
+            {
+              "id": "cell-id-ngf0he",
+              "rowId": "row-id-9qbmva",
+              "headerId": "column-id-wkghji",
+              "type": "text",
+              "expectedType": null,
+              "text": "interface"
+            },
+            {
+              "id": "cell-id-fmhp4v",
+              "rowId": "row-id-2wqkdr",
+              "headerId": "column-id-dbydcd",
+              "type": "text",
+              "expectedType": null,
+              "text": "继承"
+            },
+            {
+              "id": "cell-id-uvnobb",
+              "rowId": "row-id-2wqkdr",
+              "headerId": "column-id-d5fl0c",
+              "type": "text",
+              "expectedType": null,
+              "text": "抽象类可以继承一个类和实现多个接口"
+            },
+            {
+              "id": "cell-id-p0sqiy",
+              "rowId": "row-id-2wqkdr",
+              "headerId": "column-id-wkghji",
+              "type": "text",
+              "expectedType": null,
+              "text": "接口只可以继承接口,一个或多个,子类可以实现多个接口"
+            },
+            {
+              "id": "cell-id-uyqc9w",
+              "rowId": "row-id-lijmha",
+              "headerId": "column-id-dbydcd",
+              "type": "text",
+              "expectedType": null,
+              "text": "访问修饰符"
+            },
+            {
+              "id": "cell-id-diordr",
+              "rowId": "row-id-lijmha",
+              "headerId": "column-id-d5fl0c",
+              "type": "text",
+              "expectedType": null,
+              "text": "public ,protected,default"
+            },
+            {
+              "id": "cell-id-uebdgy",
+              "rowId": "row-id-lijmha",
+              "headerId": "column-id-wkghji",
+              "type": "text",
+              "expectedType": null,
+              "text": "public"
+            },
+            {
+              "id": "cell-id-auw4b4",
+              "rowId": "row-id-jtyfwf",
+              "headerId": "column-id-dbydcd",
+              "type": "text",
+              "expectedType": null,
+              "text": "方法实现"
+            },
+            {
+              "id": "cell-id-dvq93a",
+              "rowId": "row-id-jtyfwf",
+              "headerId": "column-id-d5fl0c",
+              "type": "text",
+              "expectedType": null,
+              "text": "可以定义构造方法,可以有抽象方法和具体方法"
+            },
+            {
+              "id": "cell-id-u0o91p",
+              "rowId": "row-id-jtyfwf",
+              "headerId": "column-id-wkghji",
+              "type": "text",
+              "expectedType": null,
+              "text": "接口是完全抽象的没有构造方法,且方法都是抽象的,不存在方法的实现."
+            },
+            {
+              "id": "cell-id-033ujr",
+              "rowId": "row-id-mos7j9",
+              "headerId": "column-id-dbydcd",
+              "type": "text",
+              "expectedType": null,
+              "text": "实现方式"
+            },
+            {
+              "id": "cell-id-w5h5gd",
+              "rowId": "row-id-mos7j9",
+              "headerId": "column-id-d5fl0c",
+              "type": "text",
+              "expectedType": null,
+              "text": "子类通过使用extends关键字来实现抽象类"
+            },
+            {
+              "id": "cell-id-0jopnf",
+              "rowId": "row-id-mos7j9",
+              "headerId": "column-id-wkghji",
+              "type": "text",
+              "expectedType": null,
+              "text": "子类通过implements来实现接口,他需要提供所有方法的实现"
+            },
+            {
+              "id": "cell-id-d4wuoq",
+              "rowId": "row-id-8k5h2t",
+              "headerId": "column-id-dbydcd",
+              "type": "text",
+              "expectedType": null,
+              "text": "作用"
+            },
+            {
+              "id": "cell-id-tpii3e",
+              "rowId": "row-id-8k5h2t",
+              "headerId": "column-id-d5fl0c",
+              "type": "text",
+              "expectedType": null,
+              "text": "为了把相同的东西抽离出来,即重用"
+            },
+            {
+              "id": "cell-id-x6ldg8",
+              "rowId": "row-id-8k5h2t",
+              "headerId": "column-id-wkghji",
+              "type": "text",
+              "expectedType": null,
+              "text": "为了把程序模块进行固化的契约,是为了降低耦合"
+            }
+          ],
+          "tags": []
+        },
+        "viewType": "live-preview",
+        "shouldUpdate": true
       }
     }
   },
