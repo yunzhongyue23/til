@@ -7,8 +7,12 @@
         "id": "8bdea626324a0513",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "得到听书/每天最重要的两小时.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "得到听书/每天最重要的两小时.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
