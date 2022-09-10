@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "得到听书/每天最重要的两小时.md",
+            "file": "git/git 的工作区,暂存区和版本库.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "得到听书/每天最重要的两小时.md",
+                "file": "git/git 的工作区,暂存区和版本库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "git/git配置.md",
+    "得到听书/每天最重要的两小时.md",
     "Linux/一些命令.md",
     "RabbitMQ/Linux下安装rabbitmq.md",
     "前端/vue/如何理解vue中h函数.md",
@@ -96,8 +98,6 @@
     "前端/element/什么是BEM风格.md",
     "工具使用/MD语法.md",
     "工具使用/对一些idea快捷键的理解.md",
-    "前端/未命名.md",
-    "得到听书/每天最重要的两小时.md",
-    "网课笔记/Spring 编程常见错误50例/依赖注入常见错误.md"
+    "前端/未命名.md"
   ]
 }
