@@ -5,6 +5,7 @@ JSON web Token 的缩写
 ## jwt 有哪几部分组成
 三部分
 <a name="Gskuw"></a>
+
 ### header 存储一些基本信息
 <a name="Xatr1"></a>
 ### payload 存储有效信息
@@ -64,6 +65,13 @@ import java.util.Date;
              String compact = jwtBuilder.compact(); //jwt压缩成字符串
              System.out.println(compact); //结果是:eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2NjYiLCJzdWIiOiJ0ZXN0Snd0IiwiaWF0IjoxNjYyNzI4NjczfQ.K529VnVzliog6ZIbLNIA2rC5rwA9vU7OIYkQ-ZEhmHo
             	//{""}
+              Claims claims = Jwts.parser()    //解析jws
+                       .setSigningKey("itlils")  //传入签发秘钥
+                       .parseClaimsJws(compact)  //解析jws string
+                       .getBody();  //拿到JWT body
+
+        System.out.println(claims);
+
                 	
         }
 
