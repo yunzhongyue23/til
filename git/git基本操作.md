@@ -12,7 +12,12 @@ git rm 将文件从暂存区和工作区删除
 git mv 移动或重命名工作区文件
 
 git log 查看提交日志
+git blame <file> 以列表形式查看指定文件的历史修改记录
 
+git remote 远程仓库操作
+git  fetch 远程获取代码库
+git pull 下载代码并合并
+git push 上传代码并合并
 
 
 
