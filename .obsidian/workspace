@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java/springsecurity/RBAC模型.md",
+            "file": "java/java8/生成流的五种方式.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/springsecurity/RBAC模型.md",
+                "file": "java/java8/生成流的五种方式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "java/springsecurity/RBAC模型.md",
     "java/java8/java8新特性(一).md",
     "java/springsecurity/自定义登录接口.md",
     "java/springsecurity/项目准备.md",
@@ -97,7 +98,6 @@
     "mysql/mysql 中字典的使用.md",
     "mysql/img/数据字典.png",
     "mysql/oracle 练习.md",
-    "读书笔记/秒懂设计模式/模板模式.md",
-    "git/git b标签.md"
+    "读书笔记/秒懂设计模式/模板模式.md"
   ]
 }
