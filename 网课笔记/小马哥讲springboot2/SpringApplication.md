@@ -1,0 +1,1 @@
+main方法里面不一定是本类,只要是标注了@SpringbootApplication注解的类就行
