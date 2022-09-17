@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "网课笔记/小马哥讲springboot2/SpringApplication.md",
+            "file": "网课笔记/小马哥讲springboot2/理解mvc框架.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网课笔记/小马哥讲springboot2/SpringApplication.md",
+                "file": "网课笔记/小马哥讲springboot2/理解mvc框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "网课笔记/小马哥讲springboot2/SpringApplication.md",
     "网络/TCP三次握手中SYN，ACK，Seq三者的关系.md",
     "网络/域名解析.md",
     "网课笔记/小马哥讲springboot2/spring模式装配.md",
@@ -97,7 +98,6 @@
     "网课笔记/尚硅谷vue学习/ref属性.md",
     "Linux/VIM编辑器使用.md",
     "英语/词根词源词典/6.10.md",
-    "java/java8/java8新特性(一).md",
-    "java/java8/生成流的五种方式.md"
+    "java/java8/java8新特性(一).md"
   ]
 }
