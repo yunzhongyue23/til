@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "网课笔记/小马哥讲springboot2/理解mvc框架.md",
+            "file": "读书笔记/spring实战/为什么会有显式装配.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网课笔记/小马哥讲springboot2/理解mvc框架.md",
+                "file": "读书笔记/spring实战/为什么会有显式装配.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "读书笔记/秒懂设计模式/几个原则.md",
+    "读书笔记/秒懂设计模式/模板模式.md",
+    "网课笔记/小马哥讲springboot2/enable模块装配.md",
+    "网课笔记/小马哥讲springboot2/理解mvc框架.md",
     "网课笔记/小马哥讲springboot2/SpringApplication.md",
     "网络/TCP三次握手中SYN，ACK，Seq三者的关系.md",
     "网络/域名解析.md",
     "网课笔记/小马哥讲springboot2/spring模式装配.md",
-    "网课笔记/小马哥讲springboot2/enable模块装配.md",
     "网课笔记/小马哥讲springboot2/条件装配.md",
-    "网课笔记/尚硅谷vue学习/ref属性.md",
-    "Linux/VIM编辑器使用.md",
-    "英语/词根词源词典/6.10.md",
-    "java/java8/java8新特性(一).md"
+    "网课笔记/尚硅谷vue学习/ref属性.md"
   ]
 }
