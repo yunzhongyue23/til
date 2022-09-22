@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "读书笔记/spring实战/第三章 高级装配.md",
+            "file": "读书笔记/spring实战/第四章,面向切面的spring.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/spring实战/第三章 高级装配.md",
+                "file": "读书笔记/spring实战/第四章,面向切面的spring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "读书笔记/spring实战/第三章 高级装配.md",
     "读书笔记/spring实战/小知识.md",
     "读书笔记/spring实战/属性注入.md",
     "读书笔记/spring实战/为什么会有显式装配.md",
-    "读书笔记/spring实战/第三章 高级装配.md",
     "读书笔记/effective java/第四章,类和接口.md",
     "读书笔记/effective java/第三章 对于所有对象都通用的方法.md",
     "读书笔记/effective java/try-with-resource.md",
