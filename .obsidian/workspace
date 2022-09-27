@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "网课笔记/it李老师若依课程/若依框架学习之日志管理.md",
+            "file": "得到听书/怎样解题.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网课笔记/it李老师若依课程/若依框架学习之日志管理.md",
+                "file": "得到听书/怎样解题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "网课笔记/it李老师若依课程/若依框架学习之日志管理.md",
     "网课笔记/it李老师若依课程/如何阅读源码.md",
     "mysql/数据库中如何进行行转列,列转行.md",
     "读书笔记/spring实战/第五章.md",
@@ -97,7 +98,6 @@
     "英语/韦小绿/打卡.md",
     "读书笔记/spring实战/第四章,面向切面的spring.md",
     "读书笔记/spring实战/第三章 高级装配.md",
-    "读书笔记/spring实战/小知识.md",
-    "读书笔记/spring实战/属性注入.md"
+    "读书笔记/spring实战/小知识.md"
   ]
 }
