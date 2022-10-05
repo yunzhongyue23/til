@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端/鉴权相关/js-cookie的使用.md",
+            "file": "java/黑马cloud/Ribbon负载均衡.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/鉴权相关/js-cookie的使用.md",
+                "file": "java/黑马cloud/Ribbon负载均衡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "java/黑马cloud/img/ribbon负载均衡流程.png",
+    "java/黑马cloud/Ribbon负载均衡.md",
+    "前端/鉴权相关/js-cookie的使用.md",
     "前端/element/属性穿透.md",
     "前端/vue/彻底弄懂state、mapState、mapGetters、mapMutations、mapActions.md",
     "mysql/事务的隔离级别.md",
     "java/java  面试题/java 类加载器.md",
     "java/mybstis/mybatis中有哪些特殊字符.md",
     "网课笔记/黑马springcloud/认识微服务.md",
-    "网课笔记/动力节点spring cloud/CI CD.md",
-    "网课笔记/若依官网视频/环境搭建部属.md",
-    "网课笔记/若依官网视频/若依6-20.md",
-    "网课笔记/若依官网视频/若依21-.md"
+    "网课笔记/动力节点spring cloud/CI CD.md"
   ]
 }
