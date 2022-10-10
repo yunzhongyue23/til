@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277,
-    "collapsed": true
+    "width": 277
   },
   "right": {
     "id": "f6a3cb8ed6139461",
@@ -90,15 +89,15 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "网络/TCP三次握手中SYN，ACK，Seq三者的关系.md",
+    "网络/域名解析.md",
+    "java/java  面试题/图灵教育面试题/面试题记录.md",
     "java/黑马cloud/docker/Docker实用篇.md",
     "java/黑马cloud/docker/Centos7安装Docker.md",
     "java/黑马cloud/Ribbon负载均衡.md",
     "java/黑马cloud/img/ribbon负载均衡流程.png",
     "前端/鉴权相关/js-cookie的使用.md",
     "前端/element/属性穿透.md",
-    "前端/vue/彻底弄懂state、mapState、mapGetters、mapMutations、mapActions.md",
-    "mysql/事务的隔离级别.md",
-    "java/java  面试题/java 类加载器.md",
-    "java/mybstis/mybatis中有哪些特殊字符.md"
+    "前端/vue/彻底弄懂state、mapState、mapGetters、mapMutations、mapActions.md"
   ]
 }
