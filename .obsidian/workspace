@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java/瑞吉外卖学习/项目开发流程.md",
+            "file": "mysql/mysql函数.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/瑞吉外卖学习/项目开发流程.md",
+                "file": "mysql/mysql函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "java/瑞吉外卖学习/项目开发流程.md",
     "java/java  面试题/图灵教育面试题/面试题记录.md",
     "网络/TCP三次握手中SYN，ACK，Seq三者的关系.md",
     "网络/域名解析.md",
@@ -97,7 +98,6 @@
     "java/黑马cloud/Ribbon负载均衡.md",
     "java/黑马cloud/img/ribbon负载均衡流程.png",
     "前端/鉴权相关/js-cookie的使用.md",
-    "前端/element/属性穿透.md",
-    "前端/vue/彻底弄懂state、mapState、mapGetters、mapMutations、mapActions.md"
+    "前端/element/属性穿透.md"
   ]
 }
