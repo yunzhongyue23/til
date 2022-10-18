@@ -32,3 +32,11 @@ set profiling =1
 ```sql
 show profiles
 ```
+
+
+explain 执行计划
+```sql
+explain SELECT * from  user  where username ='zhangsan'
+```
+
+
