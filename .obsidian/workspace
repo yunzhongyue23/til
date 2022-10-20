@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "mysql/mysql优化的集中方式.md",
+            "file": "mysql/视图.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mysql/mysql优化的集中方式.md",
+                "file": "mysql/视图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "mysql/mysql优化的集中方式.md",
     "mysql/单列索引和联合索引.md",
     "mysql/mysql50讲/前缀索引.md",
     "mysql/sql提示.md",
@@ -97,7 +98,6 @@
     "mysql/mysql函数.md",
     "mysql/mysql double 精度不准的问题.md",
     "mysql/mysql 中字典的使用.md",
-    "mysql/为什么使用b加树存储结构.md",
-    "mysql/索引失效的几种情况.md"
+    "mysql/为什么使用b加树存储结构.md"
   ]
 }
