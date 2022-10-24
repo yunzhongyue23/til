@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "网课笔记/codewhy-vue3/笔记地址.md",
+            "file": "网课笔记/尚硅谷springMVC/RequestMapping注解.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网课笔记/codewhy-vue3/笔记地址.md",
+                "file": "网课笔记/尚硅谷springMVC/RequestMapping注解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "网课笔记/codewhy-vue3/笔记地址.md",
     "前端/vue/温习了一部分vue的文档.md",
     "前端/vue/彻底弄懂state、mapState、mapGetters、mapMutations、mapActions.md",
     "mysql/存储过程.md",
@@ -97,7 +98,6 @@
     "mysql/视图.md",
     "mysql/mysql优化的集中方式.md",
     "mysql/mysql50讲/前缀索引.md",
-    "mysql/sql提示.md",
-    "mysql/oracle 练习.md"
+    "mysql/sql提示.md"
   ]
 }
