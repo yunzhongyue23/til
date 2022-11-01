@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端/codewhy的高级js/防抖和节流.md",
+            "file": "网课笔记/Tomcat深度剖析及性能调优/nginx.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/codewhy的高级js/防抖和节流.md",
+                "file": "网课笔记/Tomcat深度剖析及性能调优/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "前端/codewhy的高级js/防抖和节流.md",
     "网课笔记/Tomcat深度剖析及性能调优/文档.md",
     "网课笔记/Tomcat深度剖析及性能调优/编写mini版本的tomcat第二版.md",
     "网课笔记/Tomcat深度剖析及性能调优/编写mini版本的tomcat.md",
@@ -97,7 +98,6 @@
     "前端/html和css/影子dom.md",
     "网课笔记/codewhy-vue3/笔记地址.md",
     "前端/vue/温习了一部分vue的文档.md",
-    "前端/vue/彻底弄懂state、mapState、mapGetters、mapMutations、mapActions.md",
-    "mysql/存储过程.md"
+    "前端/vue/彻底弄懂state、mapState、mapGetters、mapMutations、mapActions.md"
   ]
 }
