@@ -41,3 +41,93 @@
 **startup mount阶段,** 实例已经创建了，Oracle继续根据参数文件中描述的控制文件的名称及位置，去查找控制文件，一旦查找到立即锁定该控制文件。控制文件里记录了数据库中的数据文件、日志文件、检查点信息等非常重要的信息，所以Oracle成功锁定控制文件，就为后续读取操作这些文件打下了基础，锁定控制文件成功就表示数据库mount成功，为实例和数据库之间桥梁的搭建打下了基础。
 
 **alter database open阶段,** 根据控制文件记录的信息，定位到数据库文件、日志文件等，从而正式打通了实例和数据库之间的桥梁。“总结一下，nomount阶段仅需一个参数文件即可成功，mount阶段要能够正常读取到控制文件才能成功，而open阶段需要保证所有的数据文件与日志文件和控制文件里记录的名称和位置一致，能被锁定访问更新的同时还要保证没有损坏，否则数据库的open阶段就不可能成功。
+### 数据库插入优化
+
+#### 单车速度
+
+,每条语句都解析一次,执行一此次,一共解析了十万次
+
+create
+or replace procedure procl as 
+begin for i in 1..100000 
+    loop   
+     execute immediate 
+     'insert into t values (' || i || ')';
+    commit;
+
+end loop;
+
+end;
+
+#### 绑定变量，摩托速度
+
+“虽然插入的语句值各不相同，但是都被绑定为：x，所以被hash成唯一一个hash值，所以解析了1次，执行10万次，这就是速度大幅度提升的原因了。
+
+create
+or replace procedure procl as 
+begin for i in 1..100000 
+    loop   
+     execute immediate 
+     'insert into t values (:x)' using  i;
+    commit;
+
+end loop;
+
+end;
+
+#### 静态改写，汽车速度
+
+动态SQL的特点是执行过程中再解析，而静态SQL的特点是编译的过程就解析好了
+
+create
+or replace procedure procl as 
+begin for i in 1..100000 
+    loop   
+     insert into t values (i);
+    commit;
+
+end loop;
+
+end;
+
+#### 批量提交，动车速度
+
+create
+or replace procedure procl as 
+begin for i in 1..100000 
+  loop   
+     insert into t values (i);
+	end loop;
+  commit;
+
+end;
+
+#### 集合写法，飞机速度
+
+insert into t select rownum from dual connect by leve<=100000;
+
+  
+
+#### 直接路径，火箭速度
+
+insert into t select ……的方式是将数据先写到Data Buffer中，然后再刷到磁盘中。而create table t 的方式却是跳过了数据缓存区，直接将数据写进磁盘，这种方式又称为直接路径读写方式，因为原本是数据先到内存，再到磁盘，更改为数据直接到磁盘，少了一个步骤，因而速
+
+create table as t select rownum from dual connect by leve<=100000;
+
+#### 并行设置，飞船速度
+
+create table t nologging parallel 16 as select rownum x from dual connect by level<=10000000;
+
+### 多租户架构
+
+  
+
+![](https://cdn.nlark.com/yuque/0/2022/jpeg/25651796/1668556875038-be298eb5-3295-4844-887a-471ef92ddc05.jpeg)
+
+**Root：又名CDB$ROOT**，用来存储Oracle提供的metadata和common user。metadata的一个例子是Oracle提供的PL/SQL包的源代码。common user 指的是一个所有容器都知道的数据库用户（注意，当我们想在数据库中创建用户的时候，一般是不能往ROOT中创建的。需要先通过语句alter session set container=PDB's name 转换到相应名称的PDB下再创建用户，要想详细了解关于common user 和 local user的区别，请参考Oracle 官方文档Oracle Database Security Guide）。一个CDB只能有一个根。
+
+**Seed：又名PDB$SEED**，用来创建新的PDB模板。但是，不能在Seed里添加或者修改对象，一个CDB只能有一个Seed
+
+**PDB：全称为Pluggable Database**，中文翻译为可插拔数据库。PDB展现给用户和应用的形象就像是一个没有CDB的普通数据库，比如hrpdb salespdb等。一个PDB包括支持一个特定应用程序所需的所有数据和代码。PDB 完全向后兼容Oracle 12c之前版本的所有数据库。
+
+**CDB**：以上的每个组成部分都被称为**容器（container）**,Root、Seed、PDB都是容器。CDB就是接管这个容器的数据库。这些容器在CDB中都有它们自己唯一的容器ID和名称。我们可以很轻松地向 CDB 中插入一个PDB 或者从 CDB 中拔出一个PDB。当将一个PDB 插入CDB中时，相当于将这个PDB与CDB连接起来，反之则解除关系
