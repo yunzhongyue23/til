@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "读书笔记/java 编程思想/第六章异常.md",
+            "file": "读书笔记/java 编程思想/第七章,常用基础类.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/java 编程思想/第六章异常.md",
+                "file": "读书笔记/java 编程思想/第七章,常用基础类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "读书笔记/java 编程思想/第六章异常.md",
     "读书笔记/java 编程思想/第五章 类扩展.md",
     "读书笔记/java8函数式编程/第四章.md",
     "读书笔记/未命名.md",
@@ -97,7 +98,6 @@
     "读书笔记/收获 不止oracle/oracle 索引.md",
     "网课笔记/黑马mysql/索引.md",
     "读书笔记/收获 不止oracle/oraacle表空间.md",
-    "读书笔记/收获 不止oracle/神奇，走进逻辑体系世界.md",
-    "读书笔记/收获 不止oracle/oracle 体系和启动流程.md"
+    "读书笔记/收获 不止oracle/神奇，走进逻辑体系世界.md"
   ]
 }
