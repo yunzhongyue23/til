@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "网课笔记/王洪元js高级/浏览器工作原理和V8引擎.md",
+            "file": "网课笔记/王洪元js高级/this的绑定规则.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网课笔记/王洪元js高级/浏览器工作原理和V8引擎.md",
+                "file": "网课笔记/王洪元js高级/this的绑定规则.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "8bdea626324a0513",
   "lastOpenFiles": [
+    "网课笔记/王洪元js高级/浏览器工作原理和V8引擎.md",
     "网课笔记/尚硅谷NIO/channel.md",
     "网课笔记/动力节点索引优化/第三章 缓冲池 buffer pool.md",
     "网课笔记/动力节点索引优化/Mysql索引性能优化.md",
@@ -97,7 +98,6 @@
     "读书笔记/java 编程思想/第十章Map和set.md",
     "读书笔记/java 编程思想/第八章,泛型.md",
     "读书笔记/java 编程思想/第七章,常用基础类.md",
-    "读书笔记/java 编程思想/第六章异常.md",
-    "读书笔记/java 编程思想/第五章 类扩展.md"
+    "读书笔记/java 编程思想/第六章异常.md"
   ]
 }
