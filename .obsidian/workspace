@@ -7,12 +7,8 @@
         "id": "8bdea626324a0513",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "网课笔记/千峰POI/excel 简单写入和读取.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网课笔记/千峰POI/excel 简单写入和读取.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +82,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8bdea626324a0513",
+  "active": "d001f13c4b674905",
   "lastOpenFiles": [
+    "网课笔记/千峰POI/excel 简单写入和读取.md",
     "网课笔记/maven/nexus私服.md",
     "网课笔记/黑马mysql/sql优化技巧.md",
     "网课笔记/王洪元js高级/es6语法.md",
@@ -97,7 +93,6 @@
     "网课笔记/王洪元js高级/浏览器工作原理和V8引擎.md",
     "网课笔记/尚硅谷NIO/channel.md",
     "网课笔记/动力节点索引优化/第三章 缓冲池 buffer pool.md",
-    "网课笔记/动力节点索引优化/Mysql索引性能优化.md",
-    "网课笔记/元动力mysql进阶/mysql进阶.md"
+    "网课笔记/动力节点索引优化/Mysql索引性能优化.md"
   ]
 }
