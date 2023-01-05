@@ -8,23 +8,27 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Getter
 @Setter
 @EqualsAndHashCode
 public class ConverterData {
     /**
-     * 我自定义 转换器，不管数据库传过来什么 。我给他加上“自定义：”
+     * 我想所有的 字符串起前面加上"自定义："三个字
      */
-    @ExcelProperty(converter = CustomStringStringConverter.class)
+    @ExcelProperty(value = "字符串标题", converter = CustomStringStringConverter.class)
     private String string;
     /**
-     * 这里用string 去接日期才能格式化。我想接收年月日格式
+     * 我想写到excel 用年月日的格式
      */
     @DateTimeFormat("yyyy年MM月dd日HH时mm分ss秒")
-    private String date;
+    @ExcelProperty("日期标题")
+    private Date date;
     /**
-     * 我想接收百分比的数字
+     * 我想写到excel 用百分比表示
      */
     @NumberFormat("#.##%")
-    private String doubleData;
+    @ExcelProperty(value = "数字标题")
+    private Double doubleData;
 }

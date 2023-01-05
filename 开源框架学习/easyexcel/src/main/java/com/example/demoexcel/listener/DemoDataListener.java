@@ -1,6 +1,7 @@
 package com.example.demoexcel.listener;
 
 import com.alibaba.excel.context.AnalysisContext;
+import com.alibaba.excel.metadata.data.ReadCellData;
 import com.alibaba.excel.read.listener.ReadListener;
 import com.alibaba.excel.util.ListUtils;
 import com.alibaba.fastjson.JSON;
@@ -9,6 +10,7 @@ import com.example.demoexcel.vo.DemoData;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
+import java.util.Map;
 
 // 有个很重要的点 DemoDataListener 不能被spring管理，要每次读取excel都要new,然后里面用到spring可以构造方法传进去
 @Slf4j
@@ -78,5 +80,18 @@ public class DemoDataListener implements ReadListener<DemoData> {
         log.info("{}条数据，开始存储数据库！", cachedDataList.size());
         demoDAO.save(cachedDataList);
         log.info("存储数据库成功！");
+    }
+    /**
+     * 这里会一行行的返回头
+     *
+     * @param headMap
+     * @param context
+     */
+    @Override
+    public void invokeHead(Map<Integer, ReadCellData<?>> headMap, AnalysisContext context) {
+        log.info("解析到一条头数据:{}", JSON.toJSONString(headMap));
+        // 如果想转成成 Map<Integer,String>
+        // 方案1： 不要implements ReadListener 而是 extends AnalysisEventListener
+        // 方案2： 调用 ConverterUtils.convertToStringMap(headMap, context) 自动会转换
     }
 }
