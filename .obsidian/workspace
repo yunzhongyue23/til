@@ -7,8 +7,12 @@
         "id": "8bdea626324a0513",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "网课笔记/尚硅谷webService/helloworld和soap协议.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "网课笔记/尚硅谷webService/helloworld和soap协议.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,7 +87,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d001f13c4b674905",
+  "active": "8bdea626324a0513",
   "lastOpenFiles": [
     "网课笔记/千峰POI/excel 简单写入和读取.md",
     "网课笔记/maven/nexus私服.md",
