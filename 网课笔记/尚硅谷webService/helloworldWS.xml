@@ -1,0 +1,52 @@
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://sangbo.pub/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="HelloWorldServiceImplService" targetNamespace="http://sangbo.pub/">
+	<types>
+		<schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://sangbo.pub/" elementFormDefault="unqualified" targetNamespace="http://sangbo.pub/" version="1.0">
+			<element name="sayHello" type="tns:sayHello" />
+			<element name="sayHelloResponse" type="tns:sayHelloResponse" />
+			<complexType name="sayHello">
+				<sequence>
+					<element minOccurs="0" name="arg0" type="xs:string" />
+					<element name="arg1" type="xs:int" />
+				</sequence>
+			</complexType>
+			<complexType name="sayHelloResponse">
+				<sequence>
+					<element minOccurs="0" name="return" type="xs:string" />
+				</sequence>
+			</complexType>
+		</schema>
+	</types>
+	<message name="sayHello">
+		<part element="tns:sayHello" name="parameters">
+		</part>
+	</message>
+	<message name="sayHelloResponse">
+		<part element="tns:sayHelloResponse" name="parameters">
+		</part>
+	</message>
+	<portType name="hw">
+		<operation name="sayHello">
+			<input message="tns:sayHello" name="sayHello">
+			</input>
+			<output message="tns:sayHelloResponse" name="sayHelloResponse">
+			</output>
+		</operation>
+	</portType>
+	<binding name="HelloWorldServiceImplServiceSoapBinding" type="tns:hw">
+		<binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<operation name="sayHello">
+			<operation soapAction="" style="document" />
+			<input name="sayHello">
+				<body use="literal" />
+			</input>
+			<output name="sayHelloResponse">
+				<body use="literal" />
+			</output>
+		</operation>
+	</binding>
+	<service name="HelloWorldServiceImplService">
+		<port binding="tns:HelloWorldServiceImplServiceSoapBinding" name="HelloWorldServiceImplPort">
+			<address location="http://localhost:9999/ws/hw" />
+		</port>
+	</service>
+</definitions>
