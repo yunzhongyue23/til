@@ -1,0 +1,13 @@
+### http包体
+
+![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356110458-f8afe893-ef2c-477f-ab52-e0a15705f976.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356110605-d5323218-a51c-4962-9fbe-7b5b2ed522a2.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356110599-d836a652-e9dd-438f-9f35-4f9978ecb5c1.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356110399-a18ed0fa-23f0-4ce7-86bc-ea9ab195afcb.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356110832-e36157d0-ae2c-4ee0-9cb1-dc7bae0f7d25.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356111524-160100e6-3bf3-4512-af15-4b743b32ba40.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356111951-bdde2373-ffea-46df-8c82-c642944c6406.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356112002-dad6edb0-d28b-49e7-82b5-330b620fe5af.png)
+
+### Range
+
+![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356141357-a2341532-b63c-4350-8f6f-ce13ff9a3c8b.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356141705-3d35f53b-e03f-4ba2-a017-61afd1d76e48.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356141442-b826ba98-90f3-4f8d-be75-b3c57f8bb990.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356141363-2447901a-0cb2-4503-8a22-817afba6fb8b.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356148326-54fcfd40-0c8d-44a1-81b1-203613c6ebfb.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356148331-9b902553-17e4-4994-b94d-2c0e81c4e79b.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673356148415-61939b8b-dea6-43fe-a283-8d833c1a9c79.png)
+
+### Cookie和同源策略
+
+![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673361278945-2963e172-f21b-4b0a-89e6-9550f4fd3665.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673361278556-40954dc8-e01b-4bdd-832e-8deb867f763b.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673361278816-dda72234-04ef-4c0c-ab12-9600bbd78bed.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673361278931-b7ea680a-1f8d-481f-a143-08f92bb4795a.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673361278793-b15e0a15-439a-4d76-8193-2a31962d5408.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673361279764-8fd2d06a-eb19-4d9b-b512-31a1598f52dc.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673361286926-e7820fe2-03dd-43fc-9c91-666dbaf8939b.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673361286838-fdbb5eda-0ea3-4d2e-8381-34b55456d3f2.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673361286784-b052281c-d0e0-4b98-bfc7-bd6c7aaf03fb.png)![](https://cdn.nlark.com/yuque/0/2023/png/25651796/1673361286946-490b8aed-8163-4ec5-b9ac-979e668815aa.png)
+
+### 跨域
